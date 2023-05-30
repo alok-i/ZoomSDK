@@ -9,6 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@zoomus/websdk": "^2.12.2",
+    "axios": "^1.4.0",
+    "jsrsasign": "^10.8.6",
     "next": "13.4.4",
     "react": "18.2.0",
     "react-dom": "18.2.0"

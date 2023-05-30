@@ -1,0 +1,16 @@
+.container{
+    height: 80vh;
+    width: 80vw;
+    margin-top: 10%;
+    margin-left: 10%;
+    display: flex;
+}
+
+.meetingSDKElement
+{
+    width: 25%;
+}
+.content
+{
+   width: 75%;
+}
