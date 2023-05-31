@@ -28,7 +28,7 @@ const Meeting=()=>{
 
 
                     const {data} = await axios({
-                        url: '/api/zoom',
+                        url: 'http://localhost:3000/api/Zoom',
                         method : 'post',
                         data : payload
                     }).then(response=>{
@@ -42,7 +42,7 @@ const Meeting=()=>{
                         signature : data.signature,
                         sdkKey : data.sdkKey,
                         userName : payload.userName,
-                        tk : ''
+                        password : payload.password
                      })
                 }).catch(error=>{
                     console.log("error in Useeffect" , error);
